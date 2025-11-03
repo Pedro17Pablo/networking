@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>red_expertos</title>
-</head>
-<body>
-    
-    <div>
-        <div></div>
+<html lang="es">
 
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red de Expertos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <img src="img/Logo Logotipo Marca Personal Negocio Sencillo Rosa.png" alt="Logo Red de Expertos" class="logo">
+    <h1>Evento Red de Expertos</h1>
+  </header>
+
+  <main class="container">
+    <section class="info">
+      <h2>Bienvenido al evento</h2>
+      <p>
+        Únete a nuestra Red de Expertos en salud para compartir conocimientos, experiencias y crear nuevas conexiones profesionales.
+      </p>
+      <p><strong>Fecha:</strong> 10 de noviembre de 2025</p>
+      <p><strong>Lugar:</strong> Centro de Convenciones de Bogotá</p>
+    </section>
+
+    <section class="formulario">
+      <h2>Contáctanos</h2>
+      <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name" required />
+          </li>
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" required />
+          </li>
+          <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message" required></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Enviar mensaje</button>
+          </li>
+        </ul>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Red de Expertos | Diseñado por Pedro Vargas</p>
+  </footer>
 
 </body>
+
 </html>
