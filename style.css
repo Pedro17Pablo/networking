@@ -23,7 +23,7 @@
 /* Contenedor principal */
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 2rem;
   padding: 2rem;
   background-color: #f4f7f8;
