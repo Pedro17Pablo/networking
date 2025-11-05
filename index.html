@@ -1,71 +1,122 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red de Expertos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Red de Expertos</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <header class="header">
+      <img
+        src="img/Logo Logotipo Marca Personal Negocio Sencillo Rosa.png"
+        alt="Logo Red de Expertos"
+        class="logo"
+      />
+      <h1>Evento Red de Expertos</h1>
+    </header>
 
-<body>
+    <section class="galeria">
+      <img src="img/2.jpg" alt="" />
+      <img src="img/3.jpg" alt="" />
+      <img src="img/4.jpg" alt="" />
+      <img src="img/5.jpg" alt="" />
+      <img src="img/6.jpg" alt="" />
+    </section>
 
-  <header class="header">
-    <img src="img/Logo Logotipo Marca Personal Negocio Sencillo Rosa.png" alt="Logo Red de Expertos" class="logo">
-    <h1>Evento Red de Expertos</h1>
-  </header>
+    <main class="container">
+      <section class="info">
+        <h2>Bienvenido al evento</h2>
+        <p>
+          Conecta. Aprende. Inspira. Únete a nuestra Red de Expertos en Salud,
+          un encuentro diseñado para fortalecer la colaboración, el aprendizaje
+          y la innovación en el ámbito sanitario. Este evento es una oportunidad
+          única para compartir conocimientos, experiencias y construir nuevas
+          conexiones profesionales con colegas del sector
+        </p>
+        <p>
+          Conecta. Aprende. Inspira. Únete a nuestra Red de Expertos en Salud,
+          un encuentro diseñado para fortalecer la colaboración, el aprendizaje
+          y la innovación en el ámbito sanitario. Este evento es una oportunidad
+          única para compartir conocimientos, experiencias y construir nuevas
+          conexiones profesionales con colegas del sector
+        </p>
+        <p><strong>Fecha:</strong> 10 de noviembre de 2025</p>
+        <p>
+          <strong>Lugar:</strong> Clinica Medical Duarte Calle 0N Esq. 16E-20
+          Av. Libertadores 0-71 Lote 2 Las Brisas Cucuta
+        </p>
+      </section>
 
-  <section class="galeria">
-    <img src="img/2.jpg" alt="">
-    <img src="img/3.jpg" alt="">
-    <img src="img/4.jpg" alt="">
-    <img src="img/5.jpg" alt="">
-    <img src="img/6.jpg" alt="">
-    <img src="img/7.jpg" alt="">
-    <img src="img/8.jpg" alt="">
-    <img src="img/9.jpg" alt="">
-    <img src="img/9.jpg" alt="">
+      <section class="formulario">
+        <h2>Contáctanos</h2>
+        <form action="/my-handling-form-page" method="post">
+          <ul>
+            <li>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="user_name" required />
+            </li>
+            <li>
+              <label for="mail">Correo electrónico:</label>
+              <input type="email" id="mail" name="user_mail" required />
+            </li>
+            <li>
+              <label for="msg">Mensaje:</label>
+              <textarea id="msg" name="user_message" required></textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Enviar mensaje</button>
+            </li>
+          </ul>
+        </form>
+      </section>
+    </main>
+    <div>
+      <h2 class="titulo-invitados">Nuestros invitados Especiales</h2>
+    </div>
 
-  </section>
+    <div class="invitados">
+      <section>
+        <h3>Dra. Andrea Campos</h3>
+        <img src="img/mujer.jpg" alt="" />
+        <p>
+          Especialista en Medicina y Nuevas Tecnologías Apasionada por la
+          innovación en el cuidado de la salud, la Dra. Andrea Campos es una
+          reconocida profesional con más de 10 años de experiencia en medicina
+          clínica y aplicación de tecnologías emergentes en diagnóstico y
+          tratamiento médico. Su trabajo se centra en integrar la inteligencia
+          artificial, la telemedicina y las herramientas digitales para
+          optimizar la atención al paciente y mejorar la toma de decisiones
+          clínicas.
+        </p>
+      </section>
 
-  <main class="container">
-    <section class="info">
-      <h2>Bienvenido al evento</h2>
+      <section>
+        <h3>Dr. Javier Aristisabal</h3>
+        <img src="img/hombre.jpg" alt="" />
+        <p>
+          El Dr. Javier Aristizábal es un destacado investigador en biología
+          celular con amplia experiencia en el estudio de los procesos de
+          regeneración y reparación de tejidos. Su trabajo se ha centrado en el
+          desarrollo de nuevas terapias basadas en células madre y en la
+          aplicación de técnicas avanzadas de biotecnología para el tratamiento
+          de enfermedades crónicas y degenerativas. Con una carrera marcada por
+          la innovación científica, ha colaborado con centros de investigación
+          internacionales y ha publicado numerosos artículos sobre biología
+          molecular, terapia celular y medicina personalizada..
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <p>Contactenos: Clinica Medical Duarte</p>
       <p>
-        Únete a nuestra Red de Expertos en salud para compartir conocimientos, experiencias y crear nuevas conexiones profesionales.
+        Direccion: Calle 0N Esq. 16E-20 Av. Libertadores 0-71 Lote 2 Las Brisas
       </p>
-      <p><strong>Fecha:</strong> 10 de noviembre de 2025</p>
-      <p><strong>Lugar:</strong> Clinica Medical Duarte Calle 0N Esq. 16E-20 Av. Libertadores 0-71 Lote 2 Las Brisas Cucuta</p>
-    </section>
-
-    <section class="formulario">
-      <h2>Contáctanos</h2>
-      <form action="/my-handling-form-page" method="post">
-        <ul>
-          <li>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="user_name" required />
-          </li>
-          <li>
-            <label for="mail">Correo electrónico:</label>
-            <input type="email" id="mail" name="user_mail" required />
-          </li>
-          <li>
-            <label for="msg">Mensaje:</label>
-            <textarea id="msg" name="user_message" required></textarea>
-          </li>
-          <li class="button">
-            <button type="submit">Enviar mensaje</button>
-          </li>
-        </ul>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Red de Expertos</p>
-  </footer>
-
-</body>
-
+      <p>PBX:+57 607 595 58 59 Ext: 9212</p>
+      <p>Ciudad: Cucuta</p>
+      <p>© 2025 Red de Expertos</p>
+    </footer>
+  </body>
 </html>
