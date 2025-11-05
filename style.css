@@ -181,26 +181,8 @@ ul{
 
 
 .galeria{
-  display: flex;
-  width: 300px;
-  height: 430px;
-  margin-top: 20px;
-}
-.galeria img{
-  width: 0px;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: 8;
-  transition: .5s ease;
-  border-radius: 5px;
-}
+  display: none;
 
-.galeria img:hover{
-  cursor: crosshair;
-  width: 200px;
-  opacity: 1;
-  filter: contrast(120%);
-}
 
 
 }
